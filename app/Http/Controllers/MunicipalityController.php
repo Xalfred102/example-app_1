@@ -11,9 +11,10 @@ class MunicipalityController extends Controller
     // Show municipality details
     public function show($id)
     {
-        $municipality = Municipality::with('barangayList')->findOrFail($id);
+        $municipality = Municipality::with('barangayList')->find($id);
         return view('municipalities.show', compact('municipality'));
     }
+    
 
     // Upload image for municipality
     public function uploadMunicipalityImage(Request $request)

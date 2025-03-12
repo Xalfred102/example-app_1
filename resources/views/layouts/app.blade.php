@@ -78,6 +78,49 @@
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
             border: 2px solid #bd2081;
         }
+           .barangay-card {
+        perspective: 1000px;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+
+    .barangay-card-inner {
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        width: 100%;
+        height: 250px;
+        position: relative;
+    }
+
+    .barangay-card:hover .barangay-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    .barangay-card-front, .barangay-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+        backface-visibility: hidden;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .barangay-card-front {
+        background-color: #edf2f7;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #00695c;
+    }
+
+    .barangay-card-back {
+        background-size: cover;
+        background-position: center;
+        transform: rotateY(180deg);
+    }
 
         /* Footer */
         footer {
@@ -131,7 +174,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">Home</a></li>
+                        <<li class="nav-item"><a class="nav-link" href="{{ route('municipality.index') }}">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                     </ul>
@@ -162,6 +205,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-
-

@@ -13,8 +13,15 @@ return new class extends Migration
     {
         Schema::create('barangays', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('municipality_id')->constrained('municipalities')->onDelete('cascade');
+            $table->string('name');
+            $table->integer('population')->nullable();
+            $table->string('image')->nullable();
+            $table->text('culture')->nullable();
             $table->timestamps();
         });
+        
+        
     }
 
     /**

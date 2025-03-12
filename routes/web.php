@@ -19,10 +19,16 @@ use App\Http\Controllers\MunicipalityController;
 */
 
 
+Route::get('/', [MunicipalityController::class, 'index'])->name('index');
 Route::get('/municipalities', [MunicipalityController::class, 'index'])->name('municipality.index');
 Route::get('/municipalities/{id}', [MunicipalityController::class, 'show'])->name('municipality.show');
 Route::post('/municipality/upload-image', [MunicipalityController::class, 'uploadMunicipalityImage'])->name('municipality.uploadImage');
 Route::post('/barangay/upload-image', [MunicipalityController::class, 'uploadBarangayImage'])->name('barangay.uploadImage');
+
+
+Route::get('/', function () {
+    return redirect()->route('municipality.index');
+});
 
 
 // Example for route with dynamic parameter
