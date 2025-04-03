@@ -16,10 +16,11 @@ class TagoloanBarangaysSeeder extends Seeder
             [
                 'latitude' => 8.5438, 
                 'longitude' => 124.3220, 
-                'population' => 20000, 
+                'population' => 15091, 
                 'barangays' => 7, 
                 'image' => 'municipalities/tagoloan.jpg',
-                'general_info' => 'Tagoloan is a municipality in Lanao del Norte known for its rich cultural heritage and historical significance.'
+                'general_info' => 'Tagoloan is a municipality in Lanao del Norte, Philippines, with a population of 15,091 (2020 census). Established through Republic Act 5822 (1969), it was formed from several barangays previously part of Baloi. The towns seat of government is in Barangay Darimbang.
+Tagoloan is a small but vibrant community rich in Maranao culture and traditions. The local economy is driven by farming, trade, and small-scale industries, with potential for eco-tourism due to its natural landscapes.'
             ]
         );
 

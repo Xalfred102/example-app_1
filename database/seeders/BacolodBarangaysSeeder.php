@@ -16,10 +16,11 @@ class BacolodBarangaysSeeder extends Seeder
             [
                 'latitude' => 8.2000, // Sample latitude
                 'longitude' => 124.0833, // Sample longitude
-                'population' => 32_576, // Example population
+                'population' => 24367	, // Example population
                 'barangays' => 16,
                 'image' => 'municipalities/bacolod.jpg',
-                'general_info' => 'Bacolod is a municipality in Lanao del Norte known for its vibrant local culture and agriculture.'
+                'general_info' => 'Bacolod is a municipality in Lanao del Norte, Philippines, with a population of 24,367 (2020 census). It is known for the historic Fuerza de Bacolod, a Spanish-era fort in need of restoration.
+'
             ]
         );
 

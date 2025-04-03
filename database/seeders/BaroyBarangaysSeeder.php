@@ -16,10 +16,15 @@ class BaroyBarangaysSeeder extends Seeder
             [
                 'latitude' => 7.9678, 
                 'longitude' => 123.7795, 
-                'population' => 50000, 
+                'population' => 24683, 
                 'barangays' => 22, 
                 'image' => 'municipalities/baroy.jpg',
-                'general_info' => 'Baroy is a municipality in Lanao del Norte with a rich history and vibrant culture.'
+                'general_info' => 'Baroy, Lanao del Norte
+Baroy is a municipality in Lanao del Norte, Philippines, with a population of 24,683 (2020 census). It was originally called Baloy, named after a plant used for mat weaving.
+History
+Once a barrio of Kolambugan, Baroy became part of Tubod in 1946 before gaining independence as a municipality on June 10, 1949 (Executive Order No. 222). Salvador was later separated from Baroy in 1960.
+Festival
+Baroy celebrates the Lechon Festival every June 10.'
             ]
         );
 

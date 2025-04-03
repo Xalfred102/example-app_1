@@ -16,10 +16,11 @@ class MaigoBarangaysSeeder extends Seeder
             [
                 'latitude' => 8.1833, 
                 'longitude' => 123.9833, 
-                'population' => 25000, 
+                'population' => 23337, 
                 'barangays' => 13, 
                 'image' => 'municipalities/maigo.jpg',
-                'general_info' => 'Maigo is a progressive municipality in Lanao del Norte, known for its coastal and agricultural richness.'
+                'general_info' => 'Maigo, Lanao del Norte
+Maigo is a municipality in Lanao del Norte, Philippines, with a population of 23,337 (2020 census). Originally part of Kolambugan, it became a separate municipality in 1959 through Executive Order No. 331. The town has a rich cultural history, where Muslims and Christians live in harmony. It was also part of the National Land Settlement Program, which brought settlers from Visayas and Luzon to develop agriculture in the area.'
             ]
         );
 

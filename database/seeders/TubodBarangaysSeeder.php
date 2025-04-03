@@ -16,10 +16,13 @@ class TubodBarangaysSeeder extends Seeder
             [
                 'latitude' => 8.0521, 
                 'longitude' => 123.7895, 
-                'population' => 47000, 
+                'population' => 50073, 
                 'barangays' => 24, 
                 'image' => 'municipalities/tubod.jpg',
-                'general_info' => 'Tubod is the capital of Lanao del Norte, known as the center of government and commerce in the province.'
+                'general_info' => 'Tubod is the capital of Lanao del Norte, Philippines, with a population of 60,182 (2020 census). It is home to the Panguil Bay Bridge, a 3.77 km structure connecting Tubod to Tangub City, Misamis Occidental, enhancing regional accessibility.The name Tubod means "water source" in Cebuano, referring to an ever-flowing spring in Barangay Poblacion, even during dry seasons.
+Established as a municipality on October 17, 1946, under Republic Act No. 58.
+Became the capital of Lanao del Norte on February 3, 1982, replacing Iligan City.
+Over the years, Tubod has been led by notable mayors, shaping its development into a center of governance and progress in the province.'
             ]
         );
 

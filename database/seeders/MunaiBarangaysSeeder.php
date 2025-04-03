@@ -16,10 +16,11 @@ class MunaiBarangaysSeeder extends Seeder
             [
                 'latitude' => 7.9850, 
                 'longitude' => 123.8925, 
-                'population' => 32000, 
+                'population' => 35020, 
                 'barangays' => 26, 
                 'image' => 'municipalities/munai.jpg',
-                'general_info' => 'Munai is a municipality in Lanao del Norte, known for its rich Maranao culture and scenic landscapes.'
+                'general_info' => 'Munai, Lanao del Norte
+Munai, home to 35,020 people (2020 census), is a predominantly Maranao town known as the foundation of the Four Federated Sultanates of Lanao. Established on August 17, 1917, it became part of Lanao del Norte in 1970. Located 18 km from the national highway, it is a fourth-class municipality where farming is the primary livelihood, producing copra, corn, and rice. Munai also has untapped tourism potential, with natural wonders like the Ledupa River, which flows 100 meters underground, and the Omnang Spring, known for its crystal-clear water.'
             ]
         );
 

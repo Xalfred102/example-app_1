@@ -16,10 +16,11 @@ class NununganBarangaysSeeder extends Seeder
             [
                 'latitude' => 7.8500, 
                 'longitude' => 123.9833, 
-                'population' => 25000, 
+                'population' => 18827, 
                 'barangays' => 25, 
                 'image' => 'municipalities/nunungan.jpg',
-                'general_info' => 'Nunungan is a municipality in Lanao del Norte, known for its rich cultural heritage and traditions.'
+                'general_info' => 'Nunungan, Lanao del Norte
+Nunungan is a first-class municipality in Lanao del Norte, represented in the 2nd congressional district of the province. It is known for its natural beauty and rich Maranao culture. The municipality is home to Lake Nunungan, the largest and highest lake in Lanao del Norte, offering potential for eco-tourism.'
             ]
         );
 

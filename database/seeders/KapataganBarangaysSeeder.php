@@ -16,10 +16,11 @@ class KapataganBarangaysSeeder extends Seeder
             [
                 'latitude' => 7.9062, 
                 'longitude' => 123.7658, 
-                'population' => 65000, 
+                'population' => 62571, 
                 'barangays' => 33, 
                 'image' => 'municipalities/kapatagan.jpg',
-                'general_info' => 'Kapatagan is one of the largest municipalities in Lanao del Norte, known for its rich agricultural land and scenic spots.'
+                'general_info' => 'Kapatagan, Lanao del Norte
+Kapatagan is a municipality in Lanao del Norte, Philippines, with a population of 62,571 (2020 census). Its name comes from the Visayan word "patag," meaning plain or valley.'
             ]
         );
 

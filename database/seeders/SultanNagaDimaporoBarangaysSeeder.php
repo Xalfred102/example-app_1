@@ -16,10 +16,11 @@ class SultanNagaDimaporoBarangaysSeeder extends Seeder
             [
                 'latitude' => 7.6469, 
                 'longitude' => 123.7472, 
-                'population' => 45000, 
+                'population' => 60904, 
                 'barangays' => 36, 
                 'image' => 'municipalities/sultan-naga-dimaporo.jpg',
-                'general_info' => 'Sultan Naga Dimaporo, formerly known as Karomatan, is a municipality in Lanao del Norte with a diverse cultural heritage.'
+                'general_info' => 'Formerly known as Karomatan, Sultan Naga Dimaporo is a municipality in Lanao del Norte, Philippines, with a population of 60,904 (2020 census). It was established through Executive Order No. 588 (1953), incorporating barangays from Kapatagan and Malabang.
+The town is a mix of Maranao and Cebuano cultures, with farming and fishing as key industries. It is known for its rich history and coastal resources, making it a potential hub for eco-tourism.'
             ]
         );
 

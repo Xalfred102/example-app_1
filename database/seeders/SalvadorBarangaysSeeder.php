@@ -16,10 +16,11 @@ class SalvadorBarangaysSeeder extends Seeder
             [
                 'latitude' => 7.8833, 
                 'longitude' => 123.8333, 
-                'population' => 32000, 
+                'population' => 32115, 
                 'barangays' => 27, 
                 'image' => 'municipalities/salvador.jpg',
-                'general_info' => 'Salvador is a municipality in Lanao del Norte, known for its agricultural economy and diverse barangays.'
+                'general_info' => 'Salvador is a municipality in Lanao del Norte, Philippines, with a population of 32,115 (2020 census). It was established on January 13, 1960, through Executive Order No. 370, signed by President Carlos P. Garcia, after being separated from Baroy.
+Salvador is home to a diverse community of Maranaos and Cebuanos, fostering a mix of Islamic and Christian traditions. The town thrives in agriculture, with rice, corn, and coconut as key products. It also features natural attractions and scenic landscapes that contribute to local tourism.'
             ]
         );
 

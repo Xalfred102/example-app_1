@@ -16,10 +16,11 @@ class PantarBarangaysSeeder extends Seeder
             [
                 'latitude' => 8.1167, 
                 'longitude' => 124.2000, 
-                'population' => 20000, 
+                'population' => 26599, 
                 'barangays' => 21, 
                 'image' => 'municipalities/pantar.jpg',
-                'general_info' => 'Pantar is a municipality in Lanao del Norte, known for its strategic location and cultural heritage.'
+                'general_info' => 'Pantar, Lanao del Norte
+Pantar is a municipality in Lanao del Norte with a population of 26,599 (2020 census). It was established on June 11, 1978, after being separated from Balo-i under Presidential Decree No. 1551. Predominantly Maranao, the town is known for its rich cultural heritage and agricultural economy.'
             ]
         );
 

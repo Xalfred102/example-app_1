@@ -11,22 +11,27 @@ class BarangayController extends Controller
     {
         $request->validate([
             'barangay_id' => 'required|exists:barangays,id',
-            'barangay_image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'barangay_image' => 'required|image|mimes:jpeg,png,jpg,gif|max:5120',
         ]);
 
         $barangay = Barangay::findOrFail($request->barangay_id);
 
         if ($request->hasFile('barangay_image')) {
-            // Delete old image if exists
-            if ($barangay->image && file_exists(storage_path('app/public/' . $barangay->image))) {
-                unlink(storage_path('app/public/' . $barangay->image));
-            }
-
-            // Save new image
-            $imagePath = $request->file('barangay_image')->store('barangays', 'public');
+            $image = $request->file('barangay_image');
+            $imageName = time() . '_' . $image->getClientOriginalName(); // Unique filename
+            $imagePath = $image->storeAs('barangays', $imageName, 'public');
+            
+            // Update barangay image path in the database
             $barangay->update(['image' => $imagePath]);
         }
+        
 
         return back()->with('success', 'Barangay image uploaded successfully!');
     }
+    public function show($id)
+{
+    $barangay = Barangay::findOrFail($id);
+    return view('barangay.show', compact('barangay'));
+}
+
 }

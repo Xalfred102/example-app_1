@@ -16,10 +16,13 @@ class KolambuganBarangaysSeeder extends Seeder
             [
                 'latitude' => 8.1197, 
                 'longitude' => 123.8856, 
-                'population' => 25000, 
+                'population' => 28265, 
                 'barangays' => 26, 
                 'image' => 'municipalities/kolambugan.jpg',
-                'general_info' => 'Kolambugan is a coastal municipality in Lanao del Norte, known for its port and fishing industry.'
+                'general_info' => 'Kolambugan, Lanao del Norte
+Kolambugan is a municipality in Lanao del Norte, Philippines, with a population of 28,265 (2020 census).
+Etymology
+The town’s name comes from “kolambog,” a tree that once grew abundantly in the area. Some barangays were previously named Migcamiguing and Maribojoc, also after local trees.'
             ]
         );
 

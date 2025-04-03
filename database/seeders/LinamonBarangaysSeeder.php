@@ -16,10 +16,14 @@ class LinamonBarangaysSeeder extends Seeder
             [
                 'latitude' => 8.1833, 
                 'longitude' => 124.0833, 
-                'population' => 15000, 
+                'population' => 21269, 
                 'barangays' => 8, 
                 'image' => 'municipalities/linamon.jpg',
-                'general_info' => 'Linamon is a coastal municipality in Lanao del Norte, known as the "Gateway to Lanao del Norte".'
+                'general_info' => 'Linamon, Lanao del Norte
+Linamon is a municipality in Lanao del Norte, Philippines, with a population of 21,269 (2020 census). It was formerly a barangay of Iligan City before becoming a separate municipality on January 13, 1960.
+
+History
+Originally home to Bisaya settlers, Linamon saw waves of migration under the National Land Settlement Administration (1935–1944). The peaceful integration of Visayan and Luzon settlers with Maranao landowners shaped the towns diverse heritage.'
             ]
         );
 

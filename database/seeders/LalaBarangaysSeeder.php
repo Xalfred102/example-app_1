@@ -21,7 +21,11 @@ class LalaBarangaysSeeder extends Seeder
                 'population' => 73425,
                 'barangays' => 27,
                 'image' => 'municipalities/lala.jpg',
-                'general_info' => 'Lala was created from Tubod through Executive Order No. 208 signed by President Elpidio Quirino on March 22, 1949.'
+                'general_info' => 'Lala, Lanao del Norte
+Lala is a municipality in Lanao del Norte, Philippines, with a population of 73,425 (2020 census). It is known for its specialized crab dishes and the Alimango Festival, celebrating its crab industry.
+
+History
+Lala was established as a municipality on March 22, 1949, through Executive Order No. 208 by President Elpidio Quirino.'
             ]);
         }
 

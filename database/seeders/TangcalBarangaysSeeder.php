@@ -16,10 +16,11 @@ class TangcalBarangaysSeeder extends Seeder
             [
                 'latitude' => 7.9458, 
                 'longitude' => 123.8234, 
-                'population' => 25000, 
+                'population' => 16075, 
                 'barangays' => 18, 
                 'image' => 'municipalities/tangcal.jpg',
-                'general_info' => 'Tangcal is a municipality in Lanao del Norte, known for its cultural heritage and rich traditions.'
+                'general_info' => 'Tangcal is a municipality in Lanao del Norte, Philippines, with a population of 16,075 (2020 census). Locally pronounced as Tangkal, it is home to a predominantly Maranao community, rich in traditions and cultural heritage.
+'
             ]
         );
 

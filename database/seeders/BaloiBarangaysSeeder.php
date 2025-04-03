@@ -14,12 +14,15 @@ class BaloiBarangaysSeeder extends Seeder
         $baloi = Municipality::firstOrCreate(
             ['name' => 'Balo-i'],
             [
-                'latitude' => 8.1667, 
-                'longitude' => 124.1667, 
-                'population' => 60_000, 
+                'latitude' => 8.1144, 
+                'longitude' => 124.2211, 
+                'population' => 68465, 
                 'barangays' => 21, 
                 'image' => 'municipalities/baloi.jpg',
-                'general_info' => 'Balo-i is a municipality in Lanao del Norte known for its cultural heritage and trade activities.'
+                'general_info' => 'Balo-i, Lanao del Norte
+Balo-i is a municipality in Lanao del Norte, Philippines, with a population of 68,465 (2020 census). Also spelled Baloi or Balëy, it is home to Maria Cristina Airport (Iligan Airport).
+History
+Established on August 1, 1948, Balo-i was formed from the municipal districts of Momungan, Pantar, and Balut. It later became the mother town of Tagoloan (1969) and Pantar (1978).'
             ]
         );
 

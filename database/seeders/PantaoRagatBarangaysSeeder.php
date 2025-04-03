@@ -16,10 +16,11 @@ class PantaoRagatBarangaysSeeder extends Seeder
             [
                 'latitude' => 8.0667, 
                 'longitude' => 124.1333, 
-                'population' => 25000, 
+                'population' => 30247, 
                 'barangays' => 20, 
                 'image' => 'municipalities/pantao_ragat.jpg',
-                'general_info' => 'Pantao Ragat is a municipality in Lanao del Norte, known for its cultural heritage and history.'
+                'general_info' => 'Pantao Ragat, Lanao del Norte
+Pantao Ragat is a municipality in Lanao del Norte with a population of 30,247 (2020 census). It is known as the mother town of Matungao and Poona Piagapo. Predominantly Maranao, the town values its rich cultural heritage and traditions. Agriculture is the main livelihood, with locals engaging in farming and trade.'
             ]
         );
 

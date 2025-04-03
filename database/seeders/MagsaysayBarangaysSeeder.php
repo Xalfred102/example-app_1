@@ -16,10 +16,11 @@ class MagsaysayBarangaysSeeder extends Seeder
             [
                 'latitude' => 8.0000, 
                 'longitude' => 123.9500, 
-                'population' => 20000, 
+                'population' => 20463, 
                 'barangays' => 24, 
                 'image' => 'municipalities/magsaysay.jpg',
-                'general_info' => 'Magsaysay is a municipality in Lanao del Norte, known for its agricultural lands and cultural heritage.'
+                'general_info' => 'Magsaysay, Lanao del Norte
+Magsaysay is a municipality in Lanao del Norte, Philippines, with a population of 20,463 (2020 census). It was officially established as a municipality on March 22, 1960, through Executive Order No. 389.'
             ]
         );
 

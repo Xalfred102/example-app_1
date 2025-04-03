@@ -16,10 +16,11 @@ class MatungaoBarangaysSeeder extends Seeder
             [
                 'latitude' => 8.0167, 
                 'longitude' => 124.0000, 
-                'population' => 15000, 
+                'population' => 14756, 
                 'barangays' => 12, 
                 'image' => 'municipalities/matungao.jpg',
-                'general_info' => 'Matungao is a peaceful municipality in Lanao del Norte, home to diverse cultures and traditions.'
+                'general_info' => 'Matungao, Lanao del Norte
+Matungao is the least populated municipality in Lanao del Norte, with 14,756 residents (2020 census). Its name means "cold" in Maranao. Known as a center of peace between Muslims and Christians, the town actively promotes Maranao culture, highlighted by the Kapagtota Festival, featuring traditional courtship dances. Established in 1949 through Executive Order No. 230, Matungao was originally part of Pantao-Ragat.'
             ]
         );
 

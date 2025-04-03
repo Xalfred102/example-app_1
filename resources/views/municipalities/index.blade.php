@@ -20,7 +20,7 @@
     var url = `/municipalities/${mun.id}`;
     console.log('URL:', url);  // Debugging
     var popupContent = `<b style="color: black;">${mun.name}</b><br>Population: ${mun.population}<br>Barangays: ${mun.barangays}<br>
-                        <a href="${url}" class="btn btn-warning btn-sm text-white">See More</a>`;
+                        <a href="${url}" class="btn btn-secondary btn-sm text-white">See More</a>`;
     L.marker([parseFloat(mun.latitude), parseFloat(mun.longitude)]).addTo(map).bindPopup(popupContent);
 });
 

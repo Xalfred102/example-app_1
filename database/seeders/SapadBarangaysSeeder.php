@@ -16,10 +16,11 @@ class SapadBarangaysSeeder extends Seeder
             [
                 'latitude' => 7.8333, 
                 'longitude' => 123.8500, 
-                'population' => 28000, 
+                'population' => 22974, 
                 'barangays' => 17, 
                 'image' => 'municipalities/sapad.jpg',
-                'general_info' => 'Sapad is a municipality in Lanao del Norte known for its agricultural production and peaceful rural communities.'
+                'general_info' => 'Sapad is a municipality in Lanao del Norte, Philippines, with a population of 22,974 (2020 census). It was officially created through Republic Act No. 5745, separating it from Kapatagan.
+Sapad is known for its agricultural economy, with rice, corn, and coconut as major products. The town is home to a diverse mix of cultures, reflecting both Maranao and Cebuano traditions. Its natural landscapes and rivers contribute to local tourism and provide potential for eco-tourism development.'
             ]
         );
 

@@ -16,10 +16,11 @@ class PoonaPiagapoBarangaysSeeder extends Seeder
             [
                 'latitude' => 8.0833, 
                 'longitude' => 124.0833, 
-                'population' => 25000, 
+                'population' => 29183, 
                 'barangays' => 26, 
                 'image' => 'municipalities/poona_piagapo.jpg',
-                'general_info' => 'Poona Piagapo is a municipality in Lanao del Norte, known for its diverse barangays and agricultural land.'
+                'general_info' => 'Poona Piagapo is a municipality in Lanao del Norte, Philippines, with a population of 29,183 (2020 census). It was established on March 31, 1976, under Presidential Decree No. 916, by merging barangays from Pantao Ragat and Matungao.
+The town is predominantly Maranao, preserving rich traditions and Islamic heritage. Poona Piagapo is known for its scenic landscapes, rivers, and agricultural lands, contributing to the local economy.'
             ]
         );
 
