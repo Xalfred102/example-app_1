@@ -3,7 +3,7 @@
 @section('content')
     <div id="map-container">
         <div class="container text-center">
-            <h2 class="text-black mb-4">Lanao del Norte Interactive Map</h2>  <!-- Changed text color to black -->
+            <h2 class="text-black mb-4">Lanao del Norte Creative Mapping</h2>  <!-- Changed text color to black -->
             <div id="map" style="height: 600px; width: 100%; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);"></div>
         </div>
     </div>

@@ -17,15 +17,19 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 
     <style>
-        /* General Styles */
-        html, body {
-            height: 100%;
-            margin: 0;
-            font-family: 'Poppins', sans-serif;
-            background-color: #f7f7f7;
-            color: #333;
-        }
 
+        /* General Styles */
+        body {
+            background-image: url('{{ asset('storage/Animated Shape T.svg') }}');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+
+        
         /* Layout */
         .wrapper {
             display: flex;
@@ -41,7 +45,7 @@
 
         /* Navigation Bar */
         .navbar {
-            background: linear-gradient(to right, #00695c, #bd2081);
+            background: linear-gradient(to right, #d7411fee, #922e7fee);
             padding: 15px 0;
         }
 
@@ -76,7 +80,7 @@
             width: 100%;
             border-radius: 12px;
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-            border: 2px solid #bd2081;
+            border: 2px solid #d7401f;
         }
            .barangay-card {
         perspective: 1000px;
@@ -113,7 +117,7 @@
         text-align: center;
         font-weight: bold;
         font-size: 1.5rem;
-        color: #00695c;
+        color: #922e7e;
     }
 
     .barangay-card-back {
@@ -124,7 +128,7 @@
 
         /* Footer */
         footer {
-            background: linear-gradient(to right, #00695c, #bd2081);
+            background: linear-gradient(to right, #d7411fee, #922e7fee);
             color: white;
             text-align: center;
             padding: 20px 0;
@@ -174,7 +178,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        <<li class="nav-item"><a class="nav-link" href="{{ route('municipality.index') }}">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ route('municipality.index') }}">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                     </ul>
